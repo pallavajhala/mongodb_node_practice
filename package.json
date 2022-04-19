@@ -1,0 +1,20 @@
+{
+  "name": "mongodb",
+  "version": "1.0.0",
+  "description": "node and mongo db practice app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon API/app.js"
+  },
+  "author": "Satya Pallavajhala",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mongoose": "^6.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
